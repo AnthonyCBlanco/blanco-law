@@ -1,13 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.css'
+import LandingPage from './pages/landingpage/landing'
+
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />,
+    element: <LandingPage />,
     errorElement: <h1 className=''>Error Loading Page</h1>,
 
     children: [
