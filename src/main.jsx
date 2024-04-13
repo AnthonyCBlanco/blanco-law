@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.css'
-import LandingPage from './pages/landingpage/landing'
+import LandingPage from './pages/landing'
 
 
 const router = createBrowserRouter([

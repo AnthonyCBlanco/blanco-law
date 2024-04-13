@@ -1,13 +1,13 @@
 import React from "react";
-import "./landing.css"
-import MainNavBar from "../../components/NavBar/navbar"
-
+import MainNavBar from "../components/navbar"
+import Hero from "../components/hero";
 
 const LandingPage = () => {
 
     return(
         <>
         <MainNavBar />
+        <Hero />
         </>
     )
 
